@@ -1,4 +1,4 @@
-# Ignore all files
-*
-# Unignore .c files
-!*.c
+*.a
+*.d
+*.o
+bin/chessviz
