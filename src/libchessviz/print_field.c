@@ -1,8 +1,8 @@
-#include "printField.h"
+#include "print_field.h"
 
 #include <stdio.h>
 
-void printField(char chessField[8][8])
+void print_field(char chess_field[8][8])
 {
     // printing the chessboard
     for (int i = 0; i < 8; i++)
@@ -10,7 +10,7 @@ void printField(char chessField[8][8])
         printf("%d ", 8 - i);
         for (int j = 0; j < 8; j++)
         {
-            printf("%c ", chessField[i][j]);
+            printf("%c ", chess_field[i][j]);
         }
         printf("\n");
     }
