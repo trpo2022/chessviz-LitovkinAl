@@ -1,3 +1,4 @@
+#include "read_move.h"
 #include <libchessviz/print_field.h>
 
 int main()
@@ -12,6 +13,8 @@ int main()
                              {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
                              {'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'}};
     print_field(chess_field);
+
+    read_move(chess_field);
 
     return 0;
 }
