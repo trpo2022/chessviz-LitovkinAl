@@ -13,7 +13,7 @@ void read_move(char chess_field[8][8])
         scanf("%s", r_move);
         char n_move = r_move[0];
         scanf("%s", r_move);
-        printf("%c. %s\n\n", n_move, r_move);
+        printf("\n%c. %s\n\n", n_move, r_move);
         if (r_move[0] < 97 || r_move[0] > 104 || r_move[3] < 97
             || r_move[3] > 104 || r_move[1] < 49 || r_move[1] > 56
             || r_move[4] < 49 || r_move[4] > 56) 
