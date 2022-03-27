@@ -1,4 +1,4 @@
-#include "read_move.h"
+#include <libchessviz/read_move.h>
 #include <libchessviz/print_field.h>
 
 int main()
